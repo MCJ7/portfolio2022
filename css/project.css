@@ -63,7 +63,7 @@ button:hover{
   float: right;
 }
 .redirect a i{
-  color: rgb(16, 70, 80);
+  color: #18ADE1;
 }
 .redirect a i:hover{
   transform: scale(1.5);
