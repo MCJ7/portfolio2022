@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Pacifico&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior:smooth;
+  transition-duration: 0.2s;
+  /* width: 100%; */
+}
+main{
+  background-color: rgb(255, 255, 255);
+  
+}
+
+h2{
+  font-size: 2.5vw;
+  text-align: center;
+  padding: 3rem 0 3rem 0;
+  color: rgb(189, 59, 156);
+}
+h1{
+  font-size: 3vw;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  color: rgb(189, 59, 156);
+}
+p{
+  font-size: 1.5vw;
+}
+.container {
+  margin: auto;
+  width: 70%;
+}
+figcaption{
+  font-size: 1vw;
+}
+
+ @media screen and (max-width:1280px) and (min-width:980){
+  .container {
+  margin: auto;
+  width: 90%;
+}
+
+ }
+@media screen and (max-width:1280px) and (min-width:601px){
+  .container{
+    padding: 0;
+    width: 90%;
+  }
+  h1{
+    font-size: 4vw;
+  }
+
+  h2{
+    font-size: 3vw;
+    padding:2vw 0 2vw 0;
+  }
+  p{
+    font-size: 1.2vw;
+  }
+  button{
+    width: 20%;
+    height: 1.5rem;
+
+  }
+}
+@media screen and (max-width:600px){
+
+  .container{
+    padding: 0;
+    width: 96%;
+  }
+  h1{
+    font-size: 6.5vw;
+  }
+  h2{
+    font-size: 5vw;
+    padding: 3vw 0 3vw 0;
+  }
+  button{
+    width: 40%;
+    height: 8vw;
+    border-radius: 1vw;
+  }
+  figcaption{
+    font-size: 0.8rem
+  }
+
+ 
+}

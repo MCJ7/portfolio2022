@@ -1,0 +1,40 @@
+.skill-list{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align: center;
+  background: url("/canvas.html"); 
+}
+
+
+.mysql {
+  width: 5.9vw;
+  padding-bottom: 1vw;
+}
+.skill-list li:nth-child(4) figcaption{
+  margin: auto;
+  width: 5vw;
+}
+
+@media screen and (max-width:600px){
+  .skill-list{
+    grid-template-columns: auto auto auto;
+  }
+  .mysql {
+  width: auto;
+  height: 8vw;
+}
+.skill-list li:nth-child(4) figcaption{
+  width: auto;
+}
+  .skill-list li{
+    padding-bottom: 5vw;
+  }
+}
+@media screen and (max-width:980px) and (min-width:601px){
+  .mysql {
+    width: auto;
+    height: 5vw;
+    margin: 0;
+    padding: 0;
+  }
+}

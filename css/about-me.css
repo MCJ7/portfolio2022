@@ -1,0 +1,19 @@
+#about-me-signature{
+  display: flex;
+  margin-left: auto;
+  width: 30vw; 
+}
+.about-me-text{
+  margin-top: 0px;
+  text-align: justify;
+}
+/* ok media query */
+@media screen and (max-width:600px){
+  #about-me-signature{
+
+  width: 50vw; 
+}
+.about-me-text{
+  font-size:4vw;
+}
+}
