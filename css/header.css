@@ -72,7 +72,6 @@
   }
   .light{
     width: 100%;
-    /* border: none; */
   }
 }
 
@@ -86,9 +85,7 @@
   .header.responsive nav ul li a.icon{
     position: absolute;
     right: 0;
-    /* position:fixed; */
     top: 0;
-    /* margin-left: 15px; */
   }
   
   .header.responsive nav ul li{
@@ -98,12 +95,6 @@
     float: none;
     visibility: visible;
   } 
-
-}
-@media screen and (min-width: 600px) and (max-width: 1400px) {
-  .header{
-    /* height: 4rem; */
-  }
   .header nav ul li a{
     font-size: 2vw;
   }
