@@ -4,7 +4,7 @@
   overflow: hidden;
 } 
 .logo{
-  width: 2rem;
+  width: 3.2rem;
   padding: 0;
   margin: 0;
 }
@@ -28,11 +28,10 @@
   background-color: #2525258c;
   border-radius: 0.3vw;
   color: #76bcd6;
-  border-bottom: 4px #cb0899 solid;
+  border-bottom: 1rem #cb0899 solid;
   
 } 
 .header nav ul li:active{
-  /* background-color: #25252510; */
   border-radius: 0.3vw;
 } 
 .header nav ul li a.icon {
@@ -44,6 +43,9 @@
   font-size: 1.1rem;
   margin-top: 0.5%;
   margin-right: 0.5%;
+  height:  3rem;
+  border: 4px #bb9c6869 solid;
+  width: 6rem;
 }
 .light:hover{
   background-color: rgba(254, 255, 239, 0.918);
@@ -52,6 +54,7 @@
 @media screen and (max-width: 600px) {
   .header{
     height: auto;
+    width: auto;
   }
   .header nav ul li:not(:nth-child(1),:nth-child(7)) {
     display: none;
@@ -69,7 +72,7 @@
   }
   .light{
     width: 100%;
-    border: none;
+    /* border: none; */
   }
 }
 
@@ -97,11 +100,17 @@
   } 
 
 }
-@media screen and (max-width: 1400px){
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+  .header{
+    /* height: 4rem; */
+  }
   .header nav ul li a{
     font-size: 2vw;
   }
+  .light{
+    height:  2rem;
+    width: 4rem;
+    margin: 1rem 1rem 0 0;
+  }
 }
-
-
 
