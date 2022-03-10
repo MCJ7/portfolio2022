@@ -5,7 +5,7 @@
   
 }
 .img-profile{
-  margin:5vw 0 0 10vw;
+  margin:3vw 0 0 10vw;
   width: 70%;
   border-radius: 100%;
 }
@@ -19,19 +19,19 @@
   margin: 1.5vw 0 2vw 0;
 } 
 .icon-link{
-  color: #1A79FF;
+  color: #174E86;
   font-size: 4vw;
 }
 .icon-link:hover{
   color: rgb(189, 59, 156);
 }
 .icon-skill{
-  color: #547d94;
+  color: #2D92D1;
   font-size: 4.5vw;
   margin-bottom: 1vw ;
 }
 .icon-hobbie{
-  color: #1A79FF;
+  color: #74C9E8;
   font-size: 4.5vw;
   margin-bottom: 1vw ;
 }

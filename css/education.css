@@ -134,20 +134,20 @@
 .education-degree{
   font-size: 1.2vw;
   font-weight: 500;
-  color: #1A79FF;
+  color: #2D92D1;
   font-weight: 700;
   height: 3.5vw;
 }
 .education-college{
   font-size: 1vw;
-  color: #B32C64;
+  color: #D12E64;
   height: 2.2vw;
   font-weight: 700;
 }
 .education-period{
   font-size: 1vw;
   height: 1.5vw;
-  color: #942173;
+  color: #F497B6;
   font-weight: 700;
 }
 @media screen and (max-width:980px) and (min-width:601px){
